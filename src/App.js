@@ -39,7 +39,7 @@ const Login = () => {
       <form onSubmit={handleSubmit}>
         <h1>Login</h1>
         {error && <p className="error">{error}</p>}
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="user">Username:</label>
         <input
           type="text"
           id="username"
